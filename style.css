@@ -1,0 +1,49 @@
+/* basic setup */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+/* section */
+
+.main-page {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    background-color: hsl(210, 46%, 95%);
+    margin: auto;
+}
+
+.box {
+    display: flex;
+    width: 800px;
+    border-radius: 10px;
+    
+}
+
+.main-img {
+    width: 44.4%;
+    align-self: center;
+}
+
+.content-box {
+    margin: 0 2rem;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.author-img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+
