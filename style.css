@@ -15,35 +15,60 @@ body {
 /* section */
 
 .main-page {
-    height: 95vh;
+    height: 98vh;
+    min-width: 1440px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    max-width: 1440px;
-    background-color: hsl(210, 46%, 95%);
-    margin: auto;
+    justify-content: center;
+    background-color: hsl(212, 23%, 69%);
 }
 
 .box {
+    width: 700px;
     display: flex;
-    width: 800px;
+    flex-direction: row;
     border-radius: 10px;
-    
 }
 
 .main-img {
-    width: 44.4%;
-    align-self: center;
+    width: 40%;
+    border-radius: 10px 0 0 10px;
 }
 
 .content-box {
-    margin: 0 2rem;
-    background-color: hsl(217, 19%, 35%);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.heading {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+    padding-top: 20px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.m3b3d {
+    display: flex;
+    align-items: center;
 }
 
 .author-img {
     width: 50px;
     border-radius: 50%;
+    margin-right: 10px;
 }
+
+.main-page .attribution {}
+.attribution { font-size: 11px; text-align: center; height: 2vh; background-color: hsl(212, 23%, 69%);}
+.attribution a { color: hsl(228, 45%, 44%); }
 
 
